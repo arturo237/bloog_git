@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">}
+    <link rel="stylesheet" href="font.css.css">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.10.0/firebase-app.js"></script>
+     <script src="/__/firebase/init.js"></script>
+    <title>Diseño Web</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-info">
+      <nav class="navbar navbar-inverse bg-black">
+               <a class="navbar-brand" href="index.html">
+                   <img  src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="lisa" href="index.html">
+                   Diseño Web 
+                 </a>
+               <style>
+                 html{font-size: 16px;}
+    .slider{
+        background: url("img/1687.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    } 
+    .header {
+    color: #36A0FF;
+    font-size: 70px;
+    padding: 5px;
+    
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.social{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s ease;
+}
+.icon-facebook2{
+    background: #3b5998;
+    
+}
+.icon-whatsapp{
+    background: #25d366;
+}
+.icon-mail4{
+    background: red;
+}
+.icon-google-plus3{
+    background: #FF5733;
+    
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0 .5rem rgba(0 0 0 .42);
+}
+#form{
+    background-color: #25d366;
+}
+#fer{
+    align-self: center;
+}
+
+
+
+               </style>  
+           </nav>
+       <ul class="navbar-nav">
+         <li class="nav-item active">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         
+         <li class="nav-item">
+           <a class="nav-link" href="#contacto">Contacto</a>
+         </li>
+         
+       </ul>
+     </nav>
+
+     <div class="social">
+         <a href="" class="icon icon-facebook2" target="blank"></a>
+         <a href="" class="icon icon-mail4" target="blank"></a>
+         <a href="" class="icon icon-whatsapp" target="blank"></a>
+         <a href="#" class="icon icon-google-plus3" target="blank"></a>
+         
+   
+     </div>
+     
+   
+   
+       <section class="container-fluid slider d-flex justify-content-start align-items-end text-white">
+           <h1 class="display-1"></h1>
+       </section>
+       
+       
+       
+   
+       
+   
+       <section class="container id"sec">
+           <p class="mt-4 pt-4 text-center text-uppercase font-italic font-weight-bold h4"> Creacion de Proyectos de Sitios Web a la Medida Personalizados App Webs blogs Portafolios etc </p>
+            <div id="fer" ><img src="img/cel.jfif" alt=""></div>
+           <p class="float-right"> Las páginas web han dejado de ser estáticas y han evolucionado a ser dinámicas e interactivas. Hoy es importante entender como navegan los usuarios y desarrollar sitios web enfocados a la experiencia de usuario.
+   ​         <br/>
+             <ul>
+               <li>Diseño & construcción web</li>
+               <li>Soporte y mantenimiento al instante</li>
+               <li>Versión móvil</li>
+               <li>Hosting & dominio</li>
+               <li>Correos de dominio.</li>
+             </ul>
+             <p><h4 class="font-weight-bold text-center display-4"> Paginas Web Responsive</h4></p>
+             <br>
+             <p class="col-sm-3 col-lg-12">Enfocada a ventas y comunicar de manera clara y rápida la propuesta de valor de cada proyecto. Hemos hecho más de 100 páginas web en lo que va del año:
+               Incluimos en cualquier desarrollo 1 año de soporte y mantenimiento.</p>
+               <p>Presupuestos Gratis :</p>
+               <ul>
+                 <li>Portafolio.</li>
+                 <li>Corporativa.</li>
+                 <li>Venta en línea.</li>
+                 <li>Informativa</li>
+                 <li>Reservas.</li>
+               </ul>
+             <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1 class="text-center display-1 text-primary"><a name="contacto">Formulario de Contacto</a></h1>
+    <div class="container form-control">
+
+      <input type="text" id="nombre" placeholder="nombre"class="form-control my-3">
+      <input type="text" id="correo" placeholder="email"class="form-control my-3">
+      <input type="number" id="telefono" placeholder="telefono"class="form-control my-3">
+      <input type="text" id="comentario" placeholder="escriba su comentario"class="form-control my-3">
+      <button class="btn btn-info btn-block" onclick="guardar()">agregar</button>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
